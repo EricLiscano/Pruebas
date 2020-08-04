@@ -1,39 +1,53 @@
 <html>
 
 <head>
+  
+
+
+  <link rel="stylesheet" type="text/css" href="./js/leaflet.ie.css">
+  <link rel="stylesheet" type="text/css" href="./js/leaflet-search.css">
+  <link rel="stylesheet" type="text/css" href="estilos.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
     integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
     crossorigin="" />
-  
-  <link rel="stylesheet" type="text/css" href="estilos.css">
 
+  <!--      Jquery     -->
   <script src="js/jquery-1.8.2.min.js"></script>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-  <!-- Make sure you put this AFTER Leaflet's CSS -->
-  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-    crossorigin=""></script>
+
+
+ 
+
+
+
+
+
+
+
 
 
 </head>
 
 <body>
   <div>
-    
+
   </div>
-  <div class="Adress">
-    <input type='text' name='From'placeholder='From' />
-    <input type='text' name='To' placeholder="To" />
-    <p>Nueva modificaciones</p>
-    
-    <button class="ubi"></button>
-    
-    <button > Go</button>
+
+  <div id="mapid">
+
   </div>
-  <div id="mapid"></div>
 </body>
 
+
+ <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+ integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+ crossorigin=""></script>
+
+<script src='js/leaflet-search.js'></script>
+<script src='js/leaflet-search-geocoder.js'></script>
 <script src='./js/testMap.js'></script>
 
 </html>
